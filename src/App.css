@@ -4,12 +4,24 @@
   padding: 2rem;
   /* text-align: center; */
 }
+.contenedorBombillos{
+  display: flex;
+  flex-wrap: wrap;
+}
 .contenedorImagen{
   width: 15%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contenedorImagen img{
   width: 100px;
   height: 100px;
+}
+.contenedorBotones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -20,9 +20,9 @@ const CrearBombillo = () => {
         <div className='contenedorImagen'>
             {
                 accion == false ? (
-                    <img src="/bombilloApagado.png" />
+                    <img className='bombilloApagado' src="/bombilloApagado.png" />
                 ) : (
-                    <img src="/bombilloEncendido.png" />
+                    <img className='bombilloEncendido' src="/bombilloEncendido.png" />
                 )
             }
             <button onClick={cambiarEstado}>{description}</button>

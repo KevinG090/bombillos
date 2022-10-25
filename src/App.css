@@ -5,10 +5,13 @@
   /* text-align: center; */
 }
 .contenedorBombillos{
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .contenedorImagen{
+  margin: 5px;
   width: 15%;
   display: flex;
   flex-direction: column;
@@ -16,12 +19,16 @@
   align-items: center;
 }
 .contenedorImagen img{
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 .contenedorBotones{
   width: 100%;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.bombilloEncendido{
+  background: radial-gradient(circle, rgba(255,255,0,0.9360119047619048) 28%, rgba(50,52,53,1) 70%)
 }

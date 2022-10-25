@@ -13,7 +13,7 @@ function App() {
 
 
   const aumentar = () => {
-    if (count.length <= 5) {
+    if (count.length < 10) {
       setCount([...count, { identificador: `bomb${contador}` }])
       contador = contador + 1
     } else {
